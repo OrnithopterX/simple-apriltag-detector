@@ -15,7 +15,7 @@ import cv2
 from pupil_apriltags import Detector
 detector = Detector(families="tag36h11")
 
-## <<<<< FOr 42h12 tags >>>>> ## 
+## <<<<< For 42h12 tags >>>>> ## 
 #from pyapriltags import Detector
 #detector = Detector(families="tagStandard41h12")
 
