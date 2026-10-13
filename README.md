@@ -98,3 +98,7 @@ You will need to install the following libraries:
 ```python
 pip install opencv-python pupil-apriltags pyapriltags
 ```
+
+To run, simply build a virtual environment, copy the main code, and install the dependencies. After running the code, a view port window will pop-up showing the camera overlay. To close the view port, hover over the window and press 'q' to quit. 
+
+The camera calibration values will have to be adjusted for the exact camera you plan to use, so the default 6 degree state estimation will be a little off. I may add a calibration script at some point. 
